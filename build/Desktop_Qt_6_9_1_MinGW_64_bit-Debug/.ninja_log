@@ -1,0 +1,9 @@
+# ninja log v6
+9	658	7774192619246506	CampusDrop_autogen/timestamp	6c0ce80d25377d0c
+9	658	7774192619246506	CampusDrop_autogen/mocs_compilation.cpp	6c0ce80d25377d0c
+9	658	7774192619246506	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	6c0ce80d25377d0c
+9	658	7774192619246506	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	6c0ce80d25377d0c
+664	3520	7774192620063315	CMakeFiles/CampusDrop.dir/CampusDrop_autogen/mocs_compilation.cpp.obj	9cc705309a8f2df9
+668	3538	7774192620108033	CMakeFiles/CampusDrop.dir/main.cpp.obj	92d1899908ea41e6
+672	3590	7774192620118020	CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj	8803fe4123d2a600
+3590	3928	7774192649325633	CampusDrop.exe	364b150d4f67f534

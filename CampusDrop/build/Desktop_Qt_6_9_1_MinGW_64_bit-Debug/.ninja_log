@@ -1,0 +1,101 @@
+# ninja log v6
+15	985	7777620380448918	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+986	5166	7777620381915941	CMakeFiles/CampusDrop.dir/CampusDrop_autogen/mocs_compilation.cpp.obj	2a0a652e125de5db
+15	985	7777620380448918	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+15	985	7777620380448918	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+15	985	7777620380448918	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+995	4960	7777620382015137	CMakeFiles/CampusDrop.dir/main.cpp.obj	482d506ab242fdbd
+1003	5625	7777620382101865	CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj	e76aed5775b8dfb3
+5625	6009	7777620428292534	CampusDrop.exe	cb05647064a54538
+1013	4636	7777620382198633	CMakeFiles/CampusDrop.dir/networkmanager.cpp.obj	289a7826da6fa4cc
+47	312	7777624693996198	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+47	312	7777624693996198	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+47	312	7777624693996198	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+47	312	7777624693996198	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+322	3404	7777624696848882	CMakeFiles/CampusDrop.dir/networkmanager.cpp.obj	289a7826da6fa4cc
+313	4380	7777624696747751	CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj	e76aed5775b8dfb3
+4380	4726	7777624737441105	CampusDrop.exe	cb05647064a54538
+52	294	7777625280780328	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+52	294	7777625280780328	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+52	294	7777625280780328	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+52	294	7777625280780328	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+305	3466	7777625283307718	CMakeFiles/CampusDrop.dir/networkmanager.cpp.obj	289a7826da6fa4cc
+295	4530	7777625283190742	CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj	e76aed5775b8dfb3
+4530	4791	7777625325528296	CampusDrop.exe	cb05647064a54538
+47	298	7777626347145092	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+47	298	7777626347145092	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+47	298	7777626347145092	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+47	298	7777626347145092	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+307	3480	7777626349772313	CMakeFiles/CampusDrop.dir/networkmanager.cpp.obj	289a7826da6fa4cc
+299	4605	7777626349627621	CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj	e76aed5775b8dfb3
+4605	4937	7777626392762278	CampusDrop.exe	cb05647064a54538
+27	546	7777646977266730	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+27	546	7777646977266730	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+27	546	7777646977266730	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+27	546	7777646977266730	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+558	3054	7777646978062412	CMakeFiles/CampusDrop.dir/networkmanager.cpp.obj	289a7826da6fa4cc
+551	3223	7777646977989666	CMakeFiles/CampusDrop.dir/main.cpp.obj	482d506ab242fdbd
+546	3275	7777646977949662	CMakeFiles/CampusDrop.dir/CampusDrop_autogen/mocs_compilation.cpp.obj	2a0a652e125de5db
+554	3685	7777646978030613	CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj	e76aed5775b8dfb3
+3686	3917	7777647009337345	CampusDrop.exe	cb05647064a54538
+9	597	7777660338429705	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+9	597	7777660338429705	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+9	597	7777660338429705	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+9	597	7777660338429705	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+602	3569	7777660339293089	CMakeFiles/CampusDrop.dir/main.cpp.obj	482d506ab242fdbd
+598	3696	7777660339232884	CMakeFiles/CampusDrop.dir/CampusDrop_autogen/mocs_compilation.cpp.obj	2a0a652e125de5db
+26	167	7777660725729634	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+26	167	7777660725729634	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+26	167	7777660725729634	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+26	167	7777660725729634	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+168	2711	7777660727154416	CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj	e76aed5775b8dfb3
+2711	2959	7777660752583596	CampusDrop.exe	cb05647064a54538
+9	183	7777687948634688	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+9	183	7777687948634688	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+9	183	7777687948634688	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+9	183	7777687948634688	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+191	2157	7777687950534029	CMakeFiles/CampusDrop.dir/networkmanager.cpp.obj	289a7826da6fa4cc
+184	2930	7777687950376443	CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj	e76aed5775b8dfb3
+2930	3210	7777687977951329	CampusDrop.exe	cb05647064a54538
+9	148	7777707031917185	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+9	148	7777707031917185	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+9	148	7777707031917185	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+9	148	7777707031917185	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+153	2108	7777707033255387	CMakeFiles/CampusDrop.dir/networkmanager.cpp.obj	289a7826da6fa4cc
+148	2933	7777707033255387	CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj	e76aed5775b8dfb3
+2933	3212	7777707061170554	CampusDrop.exe	cb05647064a54538
+9	547	7777735134102727	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+9	547	7777735134102727	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+9	547	7777735134102727	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+9	547	7777735134102727	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+564	3470	7777735135080120	CMakeFiles/CampusDrop.dir/networkmanager.cpp.obj	289a7826da6fa4cc
+555	3743	7777735134986370	CMakeFiles/CampusDrop.dir/main.cpp.obj	482d506ab242fdbd
+549	3895	7777735134894029	CMakeFiles/CampusDrop.dir/CampusDrop_autogen/mocs_compilation.cpp.obj	2a0a652e125de5db
+39	243	7777735570858984	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+39	243	7777735570858984	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+39	243	7777735570858984	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+39	243	7777735570858984	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+244	3287	7777735572934775	CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj	e76aed5775b8dfb3
+3287	3609	7777735603482045	CampusDrop.exe	cb05647064a54538
+26	165	7777739525288914	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+26	165	7777739525288914	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+26	165	7777739525288914	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+26	165	7777739525288914	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+27	168	7777739697616690	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+27	168	7777739697616690	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+27	168	7777739697616690	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+27	168	7777739697616690	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+169	3024	7777739699042087	CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj	e76aed5775b8dfb3
+3025	3319	7777739727601651	CampusDrop.exe	cb05647064a54538
+8	586	7777752814148117	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+8	586	7777752814148117	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+8	586	7777752814148117	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+8	586	7777752814148117	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+627	3315	7777752815327705	CMakeFiles/CampusDrop.dir/main.cpp.obj	482d506ab242fdbd
+587	3322	7777752814861262	CMakeFiles/CampusDrop.dir/CampusDrop_autogen/mocs_compilation.cpp.obj	2a0a652e125de5db
+29	180	7777755234565499	CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+29	180	7777755234565499	CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+29	180	7777755234565499	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/timestamp	eaa7c811a39ffec2
+29	180	7777755234565499	M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/mocs_compilation.cpp	eaa7c811a39ffec2
+180	2878	7777755236075875	CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj	e76aed5775b8dfb3
+2878	3521	7777755263035419	CampusDrop.exe	cb05647064a54538

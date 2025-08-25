@@ -14,9 +14,14 @@ public:
 
     void initSocket();
     void sendBroadcastDatagram();
+    void sendFileRequest(quint64 targetId, const QString &filePath);
+    void sendFileReply(quint64 targetId, bool accepted);
 
 signals:
     void newUserFound(quint64 id, const QString &ipAddress);
+    void fileRequestReceived(quint64 senderId, const QString &fileName, qint64 fileSize);
+    void transferAccepted(quint64 senderId, const QHostAddress &senderIp);
+    void transferDeclined(quint64 senderId);
 
 private slots:
     void processPendingDatagrams();

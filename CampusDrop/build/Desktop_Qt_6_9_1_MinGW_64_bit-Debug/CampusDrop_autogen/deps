@@ -6,12 +6,17 @@ CampusDrop_autogen/timestamp: \
 	M:/Qt\ Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	M:/Qt\ Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	M:/Qt\ Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/moc_predefs.h \
+	M:/Qt\ Projects/CampusDrop/filereceiver.cpp \
+	M:/Qt\ Projects/CampusDrop/filereceiver.h \
+	M:/Qt\ Projects/CampusDrop/filesender.cpp \
+	M:/Qt\ Projects/CampusDrop/filesender.h \
 	M:/Qt\ Projects/CampusDrop/main.cpp \
 	M:/Qt\ Projects/CampusDrop/mainwindow.cpp \
 	M:/Qt\ Projects/CampusDrop/mainwindow.h \
 	M:/Qt\ Projects/CampusDrop/networkmanager.cpp \
 	M:/Qt\ Projects/CampusDrop/networkmanager.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/QDateTime \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/QFile \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/QMap \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/QObject \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/QRandomGenerator \
@@ -24,6 +29,7 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/q20utility.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/q23utility.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qabstractitemmodel.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qalgorithms.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qanystringview.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qarraydata.h \
@@ -60,6 +66,8 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qendian.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qeventloop.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qexceptionhandling.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qfile.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qfiledevice.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qflags.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qfloat16.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qforeach.h \
@@ -72,6 +80,7 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qhashfunctions.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qiodevice.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qiodevicebase.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qitemselectionmodel.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qiterable.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qiterator.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qlatin1stringview.h \
@@ -99,6 +108,7 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qrandom.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qrect.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qrefcount.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qregularexpression.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qscopedpointer.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qscopeguard.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qset.h \
@@ -176,18 +186,38 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui/qtguiexports.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui/qtguiglobal.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui/qtransform.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui/qvalidator.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui/qwindowdefs.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/QHostAddress \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/QTcpServer \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/QTcpSocket \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/QUdpSocket \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/qabstractsocket.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/qhostaddress.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/qtcpserver.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/qtcpsocket.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/qtnetwork-config.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/qudpsocket.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/QListWidgetItem \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/QMainWindow \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qabstractslider.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qframe.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qlistview.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qlistwidget.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qmainwindow.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qrubberband.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qsizepolicy.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qslider.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qstyle.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qstyleoption.h \
+	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qtabbar.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qtabwidget.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
 	M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -466,11 +496,14 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
@@ -480,6 +513,10 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
@@ -487,9 +524,15 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
@@ -497,11 +540,13 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.tcc \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
@@ -511,6 +556,7 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
@@ -555,6 +601,7 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
@@ -563,6 +610,7 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
@@ -573,17 +621,23 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
@@ -591,6 +645,7 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/random \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/set \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf \
@@ -622,11 +677,15 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
@@ -674,5 +733,6 @@ CampusDrop_autogen/timestamp: \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+	M:/mithu/Qt/AppInstallation/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
 	M:/Qt\ Projects/CampusDrop/mainwindow.ui \
 	M:/mithu/Qt/AppInstallation/Tools/CMake_64/bin/cmake.exe

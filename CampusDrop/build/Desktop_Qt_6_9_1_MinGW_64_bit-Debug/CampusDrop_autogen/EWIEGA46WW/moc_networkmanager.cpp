@@ -43,6 +43,14 @@ template <> constexpr inline auto NetworkManager::qt_create_metaobjectdata<qt_me
         "",
         "id",
         "ipAddress",
+        "fileRequestReceived",
+        "senderId",
+        "fileName",
+        "fileSize",
+        "transferAccepted",
+        "QHostAddress",
+        "senderIp",
+        "transferDeclined",
         "processPendingDatagrams"
     };
 
@@ -51,8 +59,20 @@ template <> constexpr inline auto NetworkManager::qt_create_metaobjectdata<qt_me
         QtMocHelpers::SignalData<void(quint64, const QString &)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
             { QMetaType::ULongLong, 3 }, { QMetaType::QString, 4 },
         }}),
+        // Signal 'fileRequestReceived'
+        QtMocHelpers::SignalData<void(quint64, const QString &, qint64)>(5, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::ULongLong, 6 }, { QMetaType::QString, 7 }, { QMetaType::LongLong, 8 },
+        }}),
+        // Signal 'transferAccepted'
+        QtMocHelpers::SignalData<void(quint64, const QHostAddress &)>(9, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::ULongLong, 6 }, { 0x80000000 | 10, 11 },
+        }}),
+        // Signal 'transferDeclined'
+        QtMocHelpers::SignalData<void(quint64)>(12, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::ULongLong, 6 },
+        }}),
         // Slot 'processPendingDatagrams'
-        QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
+        QtMocHelpers::SlotData<void()>(13, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -77,12 +97,21 @@ void NetworkManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->newUserFound((*reinterpret_cast< std::add_pointer_t<quint64>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
-        case 1: _t->processPendingDatagrams(); break;
+        case 1: _t->fileRequestReceived((*reinterpret_cast< std::add_pointer_t<quint64>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<qint64>>(_a[3]))); break;
+        case 2: _t->transferAccepted((*reinterpret_cast< std::add_pointer_t<quint64>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QHostAddress>>(_a[2]))); break;
+        case 3: _t->transferDeclined((*reinterpret_cast< std::add_pointer_t<quint64>>(_a[1]))); break;
+        case 4: _t->processPendingDatagrams(); break;
         default: ;
         }
     }
     if (_c == QMetaObject::IndexOfMethod) {
         if (QtMocHelpers::indexOfMethod<void (NetworkManager::*)(quint64 , const QString & )>(_a, &NetworkManager::newUserFound, 0))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (NetworkManager::*)(quint64 , const QString & , qint64 )>(_a, &NetworkManager::fileRequestReceived, 1))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (NetworkManager::*)(quint64 , const QHostAddress & )>(_a, &NetworkManager::transferAccepted, 2))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (NetworkManager::*)(quint64 )>(_a, &NetworkManager::transferDeclined, 3))
             return;
     }
 }
@@ -106,14 +135,14 @@ int NetworkManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 5;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 5)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 5;
     }
     return _id;
 }
@@ -122,5 +151,23 @@ int NetworkManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 void NetworkManager::newUserFound(quint64 _t1, const QString & _t2)
 {
     QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1, _t2);
+}
+
+// SIGNAL 1
+void NetworkManager::fileRequestReceived(quint64 _t1, const QString & _t2, qint64 _t3)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 1, nullptr, _t1, _t2, _t3);
+}
+
+// SIGNAL 2
+void NetworkManager::transferAccepted(quint64 _t1, const QHostAddress & _t2)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 2, nullptr, _t1, _t2);
+}
+
+// SIGNAL 3
+void NetworkManager::transferDeclined(quint64 _t1)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 3, nullptr, _t1);
 }
 QT_WARNING_POP

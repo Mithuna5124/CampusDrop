@@ -43,7 +43,18 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "",
         "id",
         "ipAddress",
-        "checkTimeouts"
+        "checkTimeouts",
+        "onFileRequestReceived",
+        "senderId",
+        "fileName",
+        "fileSize",
+        "onUserDoubleClicked",
+        "QListWidgetItem*",
+        "item",
+        "onTransferAccepted",
+        "QHostAddress",
+        "senderIp",
+        "onTransferDeclined"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -53,6 +64,22 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         }}),
         // Slot 'checkTimeouts'
         QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPublic, QMetaType::Void),
+        // Slot 'onFileRequestReceived'
+        QtMocHelpers::SlotData<void(quint64, const QString &, qint64)>(6, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::ULongLong, 7 }, { QMetaType::QString, 8 }, { QMetaType::LongLong, 9 },
+        }}),
+        // Slot 'onUserDoubleClicked'
+        QtMocHelpers::SlotData<void(QListWidgetItem *)>(10, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { 0x80000000 | 11, 12 },
+        }}),
+        // Slot 'onTransferAccepted'
+        QtMocHelpers::SlotData<void(quint64, const QHostAddress &)>(13, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::ULongLong, 7 }, { 0x80000000 | 14, 15 },
+        }}),
+        // Slot 'onTransferDeclined'
+        QtMocHelpers::SlotData<void(quint64)>(16, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::ULongLong, 7 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -78,6 +105,10 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->onNewUserFound((*reinterpret_cast< std::add_pointer_t<quint64>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
         case 1: _t->checkTimeouts(); break;
+        case 2: _t->onFileRequestReceived((*reinterpret_cast< std::add_pointer_t<quint64>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<qint64>>(_a[3]))); break;
+        case 3: _t->onUserDoubleClicked((*reinterpret_cast< std::add_pointer_t<QListWidgetItem*>>(_a[1]))); break;
+        case 4: _t->onTransferAccepted((*reinterpret_cast< std::add_pointer_t<quint64>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QHostAddress>>(_a[2]))); break;
+        case 5: _t->onTransferDeclined((*reinterpret_cast< std::add_pointer_t<quint64>>(_a[1]))); break;
         default: ;
         }
     }
@@ -102,14 +133,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 6;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 6)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 6;
     }
     return _id;
 }

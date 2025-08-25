@@ -81,6 +81,22 @@ build CMakeFiles/CampusDrop.dir/networkmanager.cpp.obj: CXX_COMPILER__CampusDrop
   OBJECT_DIR = CMakeFiles\CampusDrop.dir
   OBJECT_FILE_DIR = CMakeFiles\CampusDrop.dir
 
+build CMakeFiles/CampusDrop.dir/filereceiver.cpp.obj: CXX_COMPILER__CampusDrop_unscanned_Debug M$:/Qt$ Projects/CampusDrop/filereceiver.cpp || cmake_object_order_depends_target_CampusDrop
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\CampusDrop.dir\filereceiver.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/include" -isystem M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore -isystem M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include -isystem M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/mkspecs/win32-g++ -isystem M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets -isystem M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui -isystem M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles\CampusDrop.dir
+  OBJECT_FILE_DIR = CMakeFiles\CampusDrop.dir
+
+build CMakeFiles/CampusDrop.dir/filesender.cpp.obj: CXX_COMPILER__CampusDrop_unscanned_Debug M$:/Qt$ Projects/CampusDrop/filesender.cpp || cmake_object_order_depends_target_CampusDrop
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\CampusDrop.dir\filesender.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"M:/Qt Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CampusDrop_autogen/include" -isystem M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore -isystem M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include -isystem M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/mkspecs/win32-g++ -isystem M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets -isystem M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui -isystem M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles\CampusDrop.dir
+  OBJECT_FILE_DIR = CMakeFiles\CampusDrop.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CampusDrop
@@ -89,7 +105,7 @@ build CMakeFiles/CampusDrop.dir/networkmanager.cpp.obj: CXX_COMPILER__CampusDrop
 #############################################
 # Link the executable CampusDrop.exe
 
-build CampusDrop.exe: CXX_EXECUTABLE_LINKER__CampusDrop_Debug CMakeFiles/CampusDrop.dir/CampusDrop_autogen/mocs_compilation.cpp.obj CMakeFiles/CampusDrop.dir/main.cpp.obj CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj CMakeFiles/CampusDrop.dir/networkmanager.cpp.obj | M$:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6Widgets.a M$:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6Network.a M$:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6Gui.a M$:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6Core.a M$:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6EntryPoint.a || CampusDrop_autogen CampusDrop_autogen_timestamp_deps
+build CampusDrop.exe: CXX_EXECUTABLE_LINKER__CampusDrop_Debug CMakeFiles/CampusDrop.dir/CampusDrop_autogen/mocs_compilation.cpp.obj CMakeFiles/CampusDrop.dir/main.cpp.obj CMakeFiles/CampusDrop.dir/mainwindow.cpp.obj CMakeFiles/CampusDrop.dir/networkmanager.cpp.obj CMakeFiles/CampusDrop.dir/filereceiver.cpp.obj CMakeFiles/CampusDrop.dir/filesender.cpp.obj | M$:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6Widgets.a M$:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6Network.a M$:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6Gui.a M$:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6Core.a M$:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6EntryPoint.a || CampusDrop_autogen CampusDrop_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6Widgets.a  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6Network.a  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

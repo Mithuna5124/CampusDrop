@@ -14,6 +14,7 @@ M:/Qt\ Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/q20utility.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/q23utility.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qabstractitemmodel.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qalgorithms.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qanystringview.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qarraydata.h \
@@ -62,6 +63,7 @@ M:/Qt\ Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qhashfunctions.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qiodevice.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qiodevicebase.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qitemselectionmodel.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qiterable.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qiterator.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qlatin1stringview.h \
@@ -89,6 +91,7 @@ M:/Qt\ Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qrandom.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qrect.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qrefcount.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qregularexpression.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qscopedpointer.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qscopeguard.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtCore/qset.h \
@@ -166,6 +169,7 @@ M:/Qt\ Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui/qtguiexports.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui/qtguiglobal.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui/qtransform.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui/qvalidator.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui/qwindowdefs.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtGui/qwindowdefs_win.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/QUdpSocket \
@@ -175,9 +179,23 @@ M:/Qt\ Projects/CampusDrop/CampusDrop/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/qtnetworkexports.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/qtnetworkglobal.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtNetwork/qudpsocket.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/QListWidgetItem \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/QMainWindow \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qabstractslider.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qframe.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qlistview.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qlistwidget.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qmainwindow.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qrubberband.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qsizepolicy.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qslider.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qstyle.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qstyleoption.h \
+  M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qtabbar.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qtabwidget.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   M:/mithu/Qt/AppInstallation/6.9.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
